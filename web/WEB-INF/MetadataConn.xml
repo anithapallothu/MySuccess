@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : MetadataConn.xml
+    Created on : 7 August, 2010, 2:14 PM
+    Author     : arun
+    Description:
+        Metadata Database Connection Properties
+
+        Sample Entry for Oracle
+
+
+-->
+
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+    <comment>pi Metadata Connection Properties</comment>
+
+        <entry key="dbType">oracle</entry>
+        <entry key="driverType">thin</entry>
+        <entry key="networkProtocol">tcp</entry>
+        <entry key="serverPort"></entry>
+        <entry key="serverName"></entry>
+        <entry key="databaseName">xe</entry>
+        <entry key="userName"></entry>
+        <entry key="password"></entry>
+        <entry key="schemaName"></entry>
+        <entry key="maxConnections">50</entry>
+        
+
+</properties>
